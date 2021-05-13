@@ -4,7 +4,7 @@ from PIL import Image, ImageFilter
 import os
 
 
-image_size=512  
+image_size=256  
 
 fileList=os.listdir('data/test_large')
 for num in range(len(fileList)):

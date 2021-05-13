@@ -11,7 +11,7 @@ class Places2(torch.utils.data.Dataset):
         self.img_transform = img_transform
         self.mask_transform = mask_transform
 
-        # use about 8M images in the challenge dataset
+        # use about 2M image in DIV2K dataset
         if split == 'train':
             self.paths = glob('{:s}/data_large/**/*.png'.format(img_root),
                               recursive=True)

@@ -6,7 +6,6 @@ import torch
 from torch.utils import data
 from torchvision import transforms
 from tqdm import tqdm
-
 import opt
 from evaluation import evaluate
 from loss import InpaintingLoss
@@ -50,7 +49,7 @@ parser.add_argument('--root', type=str, default='./data')
 parser.add_argument('--mask_root', type=str, default='./masks')
 parser.add_argument('--save_dir', type=str, default='./snapshots')
 parser.add_argument('--log_dir', type=str, default='./logs/default')
-parser.add_argument('--lr', type=float, default=1e-4)
+parser.add_argument('--lr', type=float, default=2e-4)
 parser.add_argument('--lr_finetune', type=float, default=5e-5)
 parser.add_argument('--max_iter', type=int, default=50000)      
 parser.add_argument('--batch_size', type=int, default=2)     
