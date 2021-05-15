@@ -39,5 +39,4 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python test.py --snapshot <snapshot_path>
 ```
 
 ## References
-- [1]: [Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.org/pdf/1804.07723.pdf) 
--[2]: [pytorch-inpainting-with-partial-conv](https://github.com/naoto0804/pytorch-inpainting-with-partial-conv#pytorch-inpainting-with-partial-conv)
+- [1]: [Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.org/pdf/1804.07723.pdf) [2]: [pytorch-inpainting-with-partial-conv](https://github.com/naoto0804/pytorch-inpainting-with-partial-conv#pytorch-inpainting-with-partial-conv)
