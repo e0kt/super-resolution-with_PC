@@ -21,7 +21,7 @@ pip install -r requirements.txt
 - Generate masks by generate_mask.py. 
  **Note that the way of the mask generation is different from the original work**
 ```
-python generate_data.py
+python generate_mask.py
 ```
 
 ### Train
