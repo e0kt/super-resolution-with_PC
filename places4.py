@@ -6,7 +6,7 @@ import copy
 import numpy as np
 from torchvision import transforms
 
-
+#get the images for eval
 class Places4(torch.utils.data.Dataset):
     def __init__(self, img_root, mask_root, img_transform1, img_transform2,mask_transform,
                  split='train'):
